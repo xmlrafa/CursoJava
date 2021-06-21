@@ -6,7 +6,7 @@ public class ExercicioBanco {
 	public static void main(String[] args) {
 		int operacao = 0;
 		int saldo = 0;
-		int saque, deposito, sair;
+		int saque, deposito;
 		System.out.println("====== Banco do Motano =======");
 		Scanner Entrada = new Scanner(System.in);
 		while (operacao != 4) {
