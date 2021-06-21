@@ -7,14 +7,14 @@ public class ExercicioBanco {
 		int operacao = 0;
 		int saldo = 0;
 		int saque, deposito;
-		System.out.println("====== Banco do Motano =======");
+		System.out.println(" Banco do Motano ");
 		Scanner Entrada = new Scanner(System.in);
 		while (operacao != 4) {
-			System.out.println("Selecione as opções \n" + "===== 1 - Saldo ===== \n" + "===== 2 - Saque ===== \n"
-					+ "===== 3 - Depósito ===== \n" + "===== 4 - Sair ===== ");
+			System.out.println("Selecione as opÃ§Ãµes \n" + "===== 1 - Saldo ===== \n" + "===== 2 - Saque ===== \n"
+					+ "===== 3 - DepÃ³sito ===== \n" + "===== 4 - Sair ===== ");
 			operacao = Entrada.nextInt();
 			if (operacao == 1) {
-				System.out.println("Seu saldo é de R$" + saldo);
+				System.out.println("Seu saldo Ã© de R$" + saldo);
 				System.out.println("\n\n\n");
 			} else if (operacao == 2) {
 				System.out.println("Informe o valor do Saque:");
@@ -22,7 +22,7 @@ public class ExercicioBanco {
 				saldo = saldo - saque;
 				System.out.println("\n\n\n");
 			} else if (operacao == 3) {
-				System.out.println("Informe o valor do depósito: ");
+				System.out.println("Informe o valor do depÃ³sito: ");
 				deposito = Entrada.nextInt();
 				saldo = saldo + deposito;
 				System.out.println("\n\n\n");
