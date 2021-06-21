@@ -1,0 +1,30 @@
+package oo.composicao.desafio;
+
+import java.util.Scanner;
+
+public class Item {
+	int quantidade = obterQuantidade();	
+	Scanner Entrada = new Scanner(System.in);
+	Produto produto = new Produto();
+	
+	public int obterQuantidade() {
+		int qtd = Entrada.nextInt();
+		return qtd;
+		
+	}
+	public void obterItens() {
+		produto.nome = Entrada.next();
+		produto.preco=Entrada.nextDouble();
+		
+	}
+	
+	public double obterValorItens() {
+		double soma=0;
+		for (int i = 0; i < quantidade; i++) {
+			soma += produto.preco;
+		}
+		return soma;
+	}
+	
+	
+}

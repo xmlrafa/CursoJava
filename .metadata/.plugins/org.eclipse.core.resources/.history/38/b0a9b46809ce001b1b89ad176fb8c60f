@@ -1,0 +1,34 @@
+package oo.composicao.desafio;
+
+public class ClienteTeste {
+	public static void main(String[] args) {
+		System.out.println("Sistema de compras");
+		Cliente cliente1 = new Cliente();
+		cliente1.nome = "Rafael";
+		
+		
+		Item item1 = new Item();
+		item1.obterItens();
+		item1.obterQuantidade();
+		double somaItem = item1.obterValorItens();	
+		System.out.println("A soma do valor dos produtos é: " + somaItem);
+		
+		Item item2 = new Item();
+		item2.obterItens();
+		item2.obterQuantidade();
+		somaItem = item2.obterValorItens();
+		System.out.println("A soma do valor dos produtos é: " + somaItem);
+		
+		
+		Compra compra1 = new Compra();
+		
+		compra1.adicionarCompra(item1);
+		compra1.adicionarCompra(item2);
+		
+		cliente1.adicionarCompra(compra1);
+		
+		double somaCompra = compra1.ValorCompra();
+		System.out.println(somaCompra + " valor da compra");
+		
+	}
+}

@@ -1,0 +1,14 @@
+package oo.composicao.desafio;
+
+public class ClienteTeste {
+	public static void main(String[] args) {
+		System.out.println("Sistema de compras");
+		Cliente cliente1 = new Cliente();
+		cliente1.nome = "Rafael";
+		
+		
+		Item item = new Item();
+		item.obterItens();
+		item.obterQuantidade();
+	}
+}
