@@ -8,50 +8,16 @@ public class CarroTeste {
 	public static void main(String[] args) {
 		Carro civic = new Civic(280);
 		civic.Acelerar();
-		civic.Acelerar();
-		civic.Acelerar();
-		civic.Acelerar();
 		
-		Carro ferrari = new Ferrari(480);
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-		ferrari.Acelerar();
-	
 		
-		System.out.println(ferrari.velocidade);
+		Ferrari ferrari = new Ferrari(320);
+		ferrari.ligarTurbo();
+
+		ferrari.Acelerar();
+		ferrari.Acelerar();
 		System.out.println(civic.velocidade);
+
+		System.out.println(ferrari.velocidade);
 		
 		
 		

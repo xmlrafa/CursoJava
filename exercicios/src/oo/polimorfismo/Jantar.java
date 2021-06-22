@@ -9,6 +9,9 @@ public class Jantar {
 		System.out.println(convidado.getPeso());
 		convidado.Comer(ingrediante1);
 		convidado.Comer(ingrediante2);
+		Comida ingredient3 = new Arroz(0.3);
+		
+		convidado.Comer(ingredient3);
 		System.out.println(convidado.getPeso());
 		
 		Sorvete sobremesa = new Sorvete(0.40);
