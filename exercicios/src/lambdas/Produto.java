@@ -4,6 +4,7 @@ public class Produto extends Object {
 	final String nome;
 	final double preco;
 	final double desconto;
+	double precoFinal;
 	
 	public Produto(String nome, double preco, double desconto) {
 		super();
@@ -15,6 +16,10 @@ public class Produto extends Object {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return nome + "tem o preço de R$"+preco*(1-desconto);
+		precoFinal = preco*(1-desconto);
+		return nome + "tem o preço de R$"+precoFinal;
 	}
+	
+	
+	
 }
