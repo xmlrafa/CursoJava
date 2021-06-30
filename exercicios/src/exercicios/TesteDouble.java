@@ -1,4 +1,5 @@
 package exercicios;
+import java.util.Locale;
 import java.util.function.UnaryOperator;
 
 public class TesteDouble {
