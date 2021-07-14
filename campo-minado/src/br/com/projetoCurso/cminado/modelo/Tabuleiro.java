@@ -1,7 +1,6 @@
 package br.com.projetoCurso.cminado.modelo;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.function.Predicate;
 
