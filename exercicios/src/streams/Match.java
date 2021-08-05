@@ -18,8 +18,8 @@ public class Match {
 		System.out.println(alunos.stream().anyMatch(aprovado));
 		System.err.println(alunos.stream().noneMatch(aprovado));
 		
-		String valor = "";
-		int valor1;
-		
+//		String valor = "";
+//		int valor1;
+//		
 	}
 }

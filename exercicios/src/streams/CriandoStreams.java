@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 public class CriandoStreams {
 	public static void main(String[] args) {
 		Consumer<String> print= System.out::print;
-		Consumer<Integer> println= System.out::print;
+//		Consumer<Integer> println= System.out::print;
 
 		Stream<String> langs = Stream.of("java ", "Lua ", "JS\n");
 		
