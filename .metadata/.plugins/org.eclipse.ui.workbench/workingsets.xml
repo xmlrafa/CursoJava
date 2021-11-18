@@ -9,5 +9,6 @@
 <item elementID="=app-api-publica" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1623335944573_2" label="Window Working Set" name="Aggregate for window 1623335944573"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1637190953070_4" label="Window Working Set" name="Aggregate for window 1637190953070"/>
 <mruList name="app"/>
 </workingSetManager>
