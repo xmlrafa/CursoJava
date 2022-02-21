@@ -1,9 +1,11 @@
 package modelo.basico;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Transient;
 
 @Entity
 public class Usuario {
@@ -12,7 +14,10 @@ public class Usuario {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+
 	private String nome;
+	
+	@Transient
 	private String email;
 
 	public Usuario() {

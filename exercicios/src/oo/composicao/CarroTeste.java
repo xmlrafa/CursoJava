@@ -20,8 +20,11 @@ public class CarroTeste {
 		c1.frear();
 		c1.frear();
 		
+		//c1.motor.fatorInjecao = -30;
+		
 		System.out.println(c1.motor.giros());
 		
+		//Relação bidirecional
 		System.out.println(c1.motor.carro.motor.giros());
 	}
 }
